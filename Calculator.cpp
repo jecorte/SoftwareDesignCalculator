@@ -6,10 +6,17 @@
 #include <sstream>
 #include <string>
 
+// COMMENT Place your class implementation in a source file and not inside
+// the header file.
+
 class Calculator
 {
 public:
 
+    // COMMENT: You should implement the precedence function on the command object since
+    // it is better placed there. Right now, this is a code smell: if-else conditions that
+    // can be realized using polymorphism.
+    
 int precedence (char op){
     if(op == '%' || op == '/' || op == '*'){
         return 2;
