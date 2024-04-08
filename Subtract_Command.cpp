@@ -10,9 +10,6 @@ virtual void execute (void){
     s_.pop();
     s_.push (n1 - n2);
 }
-virtual char type (void){
-    return('-');
-}
 private:
 Stack <int> & s_;
 };

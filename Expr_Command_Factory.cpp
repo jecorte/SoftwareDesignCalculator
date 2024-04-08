@@ -7,6 +7,7 @@
 class Expr_Command_Factory
 {
 public:
+//creates the interface for all the number commands to be created
     virtual ~Expr_Command_Factory (void) = 0;
     virtual Number_Command * create_number_command (int num) = 0;
     virtual Add_Command * create_add_command (void) = 0;

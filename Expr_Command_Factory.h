@@ -13,5 +13,5 @@ class Expr_Command_Factory{
 };
 
 #include "Number_Command.h"
-
+#include "Stack_Expr_Command_Factory.cpp"
 #endif
