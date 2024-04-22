@@ -1,0 +1,139 @@
+Generating 'make' output using default input
+Generation Time: 0s
+make[1]: Entering directory '/home/hilljh/sandbox/cs363/assignment3/jcortesv/cs363-spring2024-assignment3'
+rm -rf driver.o
+rm -rf ./assignment3
+make[1]: Leaving directory '/home/hilljh/sandbox/cs363/assignment3/jcortesv/cs363-spring2024-assignment3'
+make[1]: Entering directory '/home/hilljh/sandbox/cs363/assignment3/jcortesv/cs363-spring2024-assignment3'
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "driver.o" driver.cpp
+In file included from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: error: redefinition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mod_Command.h:9,
+                 from Expr_Command_Factory.cpp:6,
+                 from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: note: previous definition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: error: redefinition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mod_Command.h:9,
+                 from Expr_Command_Factory.cpp:6,
+                 from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: note: previous definition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: error: redefinition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mod_Command.h:9,
+                 from Expr_Command_Factory.cpp:6,
+                 from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: note: previous definition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: error: redefinition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mod_Command.h:9,
+                 from Expr_Command_Factory.cpp:6,
+                 from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: note: previous definition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: error: redefinition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+In file included from Mod_Command.h:9,
+                 from Expr_Command_Factory.cpp:6,
+                 from Div_Command.h:9,
+                 from Expr_Command_Factory.cpp:5,
+                 from Mult_Command.h:9,
+                 from Expr_Command_Factory.cpp:4,
+                 from Number_Command.h:9,
+                 from Expr_Command.h:10,
+                 from Expr_Command_Factory.cpp:3,
+                 from Subtract_Command.h:9,
+                 from Expr_Command_Factory.cpp:2,
+                 from Add_Command.h:9,
+                 from driver.cpp:6:
+Expr_Command_Factory.cpp:7:7: note: previous definition of ‘class Expr_Command_Factory’
+    7 | class Expr_Command_Factory
+      |       ^~~~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile.assignment3:54: driver.o] Error 1
+make[1]: Leaving directory '/home/hilljh/sandbox/cs363/assignment3/jcortesv/cs363-spring2024-assignment3'
+make: *** [Makefile:22: assignment3] Error 2
